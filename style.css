@@ -1,0 +1,44 @@
+
+
+header div p {
+    color: #00008B;
+}
+header div nav {
+  text-align: right;
+  
+}
+
+header div nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header div nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: auto;
+  margin: 0 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+.archine img  {
+  text-align: right;
+
+
+.archine img src {
+  margin: 0 0 5 ;
+  display: block;
+  width: 0%;
+}
+
+.archine img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 0px;
+}
