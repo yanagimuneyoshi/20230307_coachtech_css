@@ -1,44 +1,65 @@
 
 
 header div p {
-    color: #00008B;
+    color: #000074;
 }
 header div nav {
   text-align: right;
-  
+
 }
 
 header div nav ul {
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
 
 header div nav ul li {
+  text-decoration-line:  none;
   list-style: none;
-  display: inline-block;
+  display: inline;
   width: auto;
   margin: 0 10px;
 }
+header div nav ul li a {
+  text-decoration: none;
+}
+
 
 .header {
   display: flex;
   justify-content: space-between;
-} 
+}
 
 
-.archine img  {
-  text-align: right;
+.imgbox {
+  position: relative;
+}
 
-
-.archine img src {
-  margin: 0 0 5 ;
+img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
   display: block;
-  width: 0%;
+  position: absolute;
+  right: 0px;
 }
 
-.archine img {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  font-size: 0px;
+
+h1 {
+  
+  position: relative;
+  top: 282px;
+  left: 0px;
+  width: 200px;
+  height: 300px;
+  left: 0px;
 }
+
+section {
+  margin:0px 0px 0px 0px;
+  width: 900px;
+  height: 200px;
+  left:  0px;
+  background-color: #000074;
+}
+
