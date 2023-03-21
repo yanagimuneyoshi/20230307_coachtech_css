@@ -1,37 +1,44 @@
 
 
 header div p {
-    color: #000074;
+  color: #2121d5;
 }
-header div nav {
+
+header div p {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+
+header div nav ul {
   text-align: right;
 
 }
 
 header div nav ul {
-  margin: 10;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
-header div nav ul li {
-  text-decoration-line:  none;
+header div nav ul a {
+  text-decoration-line: none;
   list-style: none;
   display: inline;
   width: auto;
-  margin: 0 10px;
+  margin: 10px 10px;
 }
 header div nav ul li a {
   text-decoration: none;
 }
 
 
-.header {
-  display: flex;
+header div nav ul li {
+  display: inline;
   justify-content: space-between;
 }
 
 
-.imgbox {
+div nav ul li {
   position: relative;
 }
 
