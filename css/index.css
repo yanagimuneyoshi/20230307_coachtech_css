@@ -42,7 +42,7 @@ div nav ul li {
   position: relative;
 }
 
-img {
+.imgbox {
   width: 100%;
   height: auto;
   max-width: 700px;
@@ -61,7 +61,7 @@ h1 {
   left: 0px;
 }
 
-section {
+.bar {
   margin:0px 0px 0px 0px;
   width: 900px;
   height: 200px;
