@@ -10,10 +10,8 @@ header div p {
   left: 10px;
 }
 
-header div nav ul {
-  position: relative;
-  right: 0px;
-  top: 0px;
+header div nav {
+  position: absolute;;
   left: 720px;
 }
 
@@ -23,10 +21,8 @@ header div nav ul {
 }
 
 header div nav ul a {
-  text-decoration-line: none;
-  list-style: none;
   display: inline;
-  width: auto;
+  width: 100px;
   margin: 10px 10px;
 }
 
@@ -49,14 +45,13 @@ div nav ul li {
 
 
 .imgbox {
+
   width: 100%;
   height: auto;
+  top: 100px;
+  left:  400px;
   max-width: 700px;
-  display: block;
-  position: relative;
-  right: 0px;
-  top: 0px;
-  left: 400px;
+  position: absolute;
   z-index: 1;
 }
 
